@@ -10,7 +10,7 @@ This the first of a series of projects/posts I'm going to try writing up called 
 The repo for this project can be found [here](https://github.com/Fhoughton/LuaDiscordBot).
 
 # Why This Project?
-I have been wanting to learn [Lua](https://www.lua.org/) for a while, as it pairs very well as a scripting language for C and C++ based applications, with its ease of embedding and light weight. Lua sports other advantages too, such as its ability to be sandboxed and the great speed it can reach using [LuaJIT]() compared to embedding alternatives such as Python (which suffers greatly due to the [GIL](https://realpython.com/python-gil/) too. though there's [work to fix this](https://peps.python.org/pep-0703/)).
+I have been wanting to learn [Lua](https://www.lua.org/) for a while, as it pairs very well as a scripting language for C and C++ based applications, with its ease of embedding and light weight. Lua sports other advantages too, such as its ability to be sandboxed and the great speed it can reach using [LuaJIT](http://luajit.org/) compared to embedding alternatives such as Python (which suffers greatly due to the [GIL](https://realpython.com/python-gil/) too. though there's [work to fix this](https://peps.python.org/pep-0703/)).
 
 As I was looking for projects to use as an avenue to learn Lua I came across a small programming competition for making bots on the chat platform [Discord](https://discord.com/). The bots had to be puzzle themed, and so my project was born.
 
@@ -38,5 +38,7 @@ Once the game is started the user can send moves to work through the levels:
 The project taught me a lot about the language design and philosophy of Lua. The language is great for 'glue' code, which joins large chunks programmed in a more complex language. The simplicity of the language, with just 20 keywords (compared to C++'s 95), and just one complex data structure with tables (which are associative arrays), makes the language possible to hold easily in your head, reducing friction in making design decisions.
 
 The Discord API was also quite intuitive and its architecture confirmed my assumptions about how such APIs should be designed, as well as how Discord itself would be designed (for example each user has a numeric UUID despite also having unique usernames, for the purpose of consistency on username changes and optimisation).
+
+I also learned just how fast a JIT can be, as I had previous knowledge about PyPy but LuaJIT is in a league of its own, only being 10% slower than handwritten equivalent C code in [some benchmarks](https://old.reddit.com/r/lua/comments/htqn0t/luajit_once_again_nearly_as_fast_as_the/), despite being dynamically typed and very simplistic.
 
 Overall the project was quite cathartic, helping me learn Lua nicely and confirm my intuitions about certain application design ideas. Lua seems to me to be a pleasant language, with great features for embedding in C++ codebase where Python might cause issue, and is such a simple and intuitive language that it causes little mental strain to work in relative to more complex languages like Rust. For this reason Lua has a place as possibly one of my favourite languages to program in, especially as it is extremely performant, with LuaJIT having [20 times the speed of Python](https://reddit.com/r/Compilers/comments/llujxv/luajit_performance/) in benchmarks!
