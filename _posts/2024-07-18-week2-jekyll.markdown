@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "APAW Week 2: Jekyll Blog Setup"
-date:   2024-07-11 00:19:13 +0100
+date:   2024-07-18 00:19:13 +0100
 categories: blog meta ruby
 ---
 
