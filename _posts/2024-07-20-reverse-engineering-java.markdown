@@ -10,7 +10,7 @@ categories: java reverse-engineering
 
 In my spare time I sometimes play a video game called '[Slay the Spire](https://store.steampowered.com/app/646570/Slay_the_Spire/)' with my friends. It's a card game where you go through different encounters in a map and fight enemies, tackle events and buy items to gradually build up a better deck that can face the tougher challenges the game throws at you over time.
 
-By default the game actually doesn't have multiplayer, instead we use a mod called '[Together in Spire](https://steamcommunity.com/sharedfiles/filedetails/?id=2384072973)' (yes it's spelt that way). This mod adds skins to the game to allow the players to differentiate eachother if they play the same character, but some of these skins are locked behind special events or challenges, and can only be accessed via entering codes.
+By default the game actually doesn't have multiplayer, instead we use a mod called '[Together in Spire](https://steamcommunity.com/sharedfiles/filedetails/?id=2384072973)' (yes it's spelt that way). This mod adds skins to the game to allow the players to differentiate each other if they play the same character, but some of these skins are locked behind special events or challenges, and can only be accessed via entering codes.
 
 In this article I'll detail how I reverse-engineered the game, written in Java and using LibGDX, to unlock every skin for me and my friends, so we could have more fun.
 
@@ -21,7 +21,7 @@ The first step to any reverse-engineering is obviously to find the file we want 
 
 Luckily in this case it's fairly easy, as the mod is installed via the gaming platform [Steam](https://store.steampowered.com/). To find the mod we can go to where steam stores all its mod downloads, which can be found by going to the games folder and going up two directories (Or just going to ~/.local/share/Steam/steamapps/workshop/content/ on Linux).
 
-Then to find the game we need its ID, which every game on the platform has. This can be found by searching on [SteamDB](https://steamdb.info/) or simply by looking at the URL of the store page. In our case the game ID is _646570_. Similary we can then find the folder for the mod by looking at its url, in this case it is _2384072973_. Navigating to this folder we find **TogetherInSpire.jar**, our target.
+Then to find the game we need its ID, which every game on the platform has. This can be found by searching on [SteamDB](https://steamdb.info/) or simply by looking at the URL of the store page. In our case the game ID is _646570_. Similarly we can then find the folder for the mod by looking at its url, in this case it is _2384072973_. Navigating to this folder we find **TogetherInSpire.jar**, our target.
 
 # Opening The Jar
 A jar file is just a glorified zip file, but the contents are all Java bytecode of the original classes so we need something to decompile them back to readable Java code. For that I chose to use 'jd', a popular Java decompiler. Opening the jar we found earlier we are presented with this:
@@ -29,7 +29,7 @@ A jar file is just a glorified zip file, but the contents are all Java bytecode 
 ![](/images/sts-jaropen.png)
 
 # Finding Our Class
-Finding what we need in a foreign codebase can take some time, so I began by simply looking through relevantly named files to get an idea of the games structure, finding classes for unlock methods and more in two seperate skindex packages.
+Finding what we need in a foreign codebase can take some time, so I began by simply looking through relevantly named files to get an idea of the games structure, finding classes for unlock methods and more in two separate skindex packages.
 
 ![](/images/sts-unlockmethod.png)
 
@@ -144,4 +144,4 @@ And indeed, going back to the previously locked skins we can now see they are al
 # Conclusion
 Reverse-engineering these codes was a lot of fun. It was fairly quick, since I discovered the locked skins at around 10pm after a long day and had them all unlocked by midnight. The result of it, that me and my friends had more skins to mess around with in a game we liked was very nice too, particularly since some of the skins (such as the Chibi ones seen to the left in the screenshots) are very goofy and make for a good laugh.
 
-Reverse-engineering Java programs is really pleasant because like C# it uses reversable bytecode for error messages and other language features all symbols are retained even in shipped binaries, meaning that looking at and modifying Java programs through reverse-engineering is nearly as pleasant as having the source code itself (minus some optimisation losses and comments of course).
+Reverse-engineering Java programs is really pleasant because like C# it uses reversible bytecode for error messages and other language features all symbols are retained even in shipped binaries, meaning that looking at and modifying Java programs through reverse-engineering is nearly as pleasant as having the source code itself (minus some optimisation losses and comments of course).

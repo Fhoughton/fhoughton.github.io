@@ -10,7 +10,7 @@ categories: cpp forth
 Forth is a procedural, concatenative, stack-oriented programming language invented in 1970 by [Chuck Moore](https://en.wikipedia.org/wiki/Charles_H._Moore), an embedded systems programmer.
 
 The language is famous for its simplicity, being possible to implement in a few hundred lines of assembler or C. 
-Seeking to understand the language I implented it in **C++**.
+Seeking to understand the language I implemented it in **C++**.
 
 # What We Are Building
 ![Preview](/images/simpleforth-demo.gif)

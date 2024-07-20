@@ -20,7 +20,7 @@ Lua is a nonstandard language for this field, with Javascript and Rust usually b
 The final bot was produced using [Luvit](https://luvit.io/), a Lua fork with asynchronous I/O. It was capable of:
 - Per-user save files, allowing multiple users
 - 5 commands to interact with the bot/game state
-- Prefix (bot command indentifier) switching
+- Prefix (bot command identifier) switching
 
 The puzzle game I designed aimed to teach simple [Reverse Polish Notation (RPN)](https://en.wikipedia.org/wiki/reverse_Polish_notation), a form of mathemtical expression that removes the needs for brackets in deciding order. For example ```2 + (3 * 4)``` would become ```3 4 * 2 +```, eliminating brackets. This notation is extremely simple to parse and implement since you can process it by pushing numbers to a stack and then applying the equations to the stack. This processing method is used in the embedded programming language [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)), which I'm a big fan of.
 
