@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "My Experience Trying Zig"
+title:  "APAW Week 4: Trying Zig"
 date:   2024-08-04 00:19:13 +0100
 categories: zig plt
 ---
 
-Whilst attempting to create a project for week 4 of my 'A Project A Week' series I decided that I would try giving [Zig](https://ziglang.org/), a low-level programming language with compile time metaprogramming.
+For week 4 of my 'A Project A Week' series I decided that I would try learning [Zig](https://ziglang.org/), a low-level programming language with compile time metaprogramming.
 
 # Why Zig?
 I chose Zig because at work I have been in the need for a better webcam virtualisation driver, and I have been evaluating writing one myself. Traditionally this would be done in either C or C++, using the win32 api. Zig presented a promising alternative to C however, as it made a number of design choices that are better in hindsight relative to C:
