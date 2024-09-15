@@ -8,7 +8,7 @@ categories: anticheat cheat-engine roblox hacking lua
 # Why Avoid Anti-Cheats?
 For fun me and my friends somewhat immaturely sometimes play the children's game [Roblox](https://www.roblox.com/), an online minigame based game. One thing we sometimes get up to is exploiting the badly made flaws in games, getting out of bounds and finding exploits, but I've always wanted a little more power, and some low-quality games leave variables client-sided (meaning we can modify them and the game accepts them) so I wanted to modify them to do new exploits.
 
-My target of choice is the game hacking tool [Cheat Engine](https://www.cheatengine.org/) because it is the goto for developing stronger exploits, providing memory scanning, speedhacks and debugging features to find good offsets (pointer to useful memory addresses) for functions and variables.
+My target of choice is the game hacking tool [Cheat Engine](https://www.cheatengine.org/) because it is the goto for developing stronger exploits, providing memory scanning, speedhacks and debugging features to find good offsets (pointers to useful memory addresses) for functions and variables.
 
 Currently running Roblox and hooking Cheat Engine triggers this message:
 ![](/images/roblox-detected.PNG)
