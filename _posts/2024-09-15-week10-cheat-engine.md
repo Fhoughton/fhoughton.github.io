@@ -11,7 +11,7 @@ For fun me and my friends somewhat immaturely sometimes play the children's game
 My target of choice is the game hacking tool [Cheat Engine](https://www.cheatengine.org/) because it is the goto for developing stronger exploits, providing memory scanning, speedhacks and debugging features to find good offsets (pointer to useful memory addresses) for functions and variables.
 
 Currently running Roblox and hooking Cheat Engine triggers this message:
-![](../images/roblox-detected.PNG)
+![](/images/roblox-detected.PNG)
 
 And by the end of the post we will stop this from occurring
 
@@ -37,18 +37,18 @@ To start editing the program fully we need the lazarus compiler, which can be fo
 
 Run 'lazarus-2.2.2-fpc-3.2.2-win32.exe' first and then 'lazarus-2.2.2-fpc-3.2.2-cross-x86_64-win64-win32.exe' to get the extra plugins. After this you should be able to search for and run the IDE.
 
-![](../images/roblox-lazarus.PNG)
+![](/images/roblox-lazarus.PNG)
 
 It's a tiny bit weird as you can see, not being a fullscreen program but instead made of lots of little windows, which is a conscious design decision.
 
 # String Scanning
 To start open the file "Cheat Engine/cheatengine.lpi" to open the project in Lazarus IDE. Next we want to simply change the window title so we change the field 'Caption' in the object inspector to something new.
 
-![](../images/roblox-cheatengine-caption.PNG)
+![](/images/roblox-cheatengine-caption.PNG)
 
 Next go to 'Project -> Project options' (or press Shift+Control+F11) and click 'Clear Icon' as well as change the 'Name' field to something new.
 
-![](../images/roblox-cheatengine-projectoptions.PNG)
+![](/images/roblox-cheatengine-projectoptions.PNG)
 
 <small> <i> Note: I put '(Not) Cheat Engine' as my name but remove all mentions of the name Cheat Engine from the title if you're doing it for the best results! </i> </small>
 
@@ -71,6 +71,7 @@ Open the project options and switch to "Release Without Sig" as the configuratio
 From here you have circumvented most anticheats for a short while, having prevented them from identifying your cheat program and its drivers. If the cheat becomes detected you can modify it further to make it undetected again (and there are good methods for keeping the cheat looking unique to detection systems, such as VMProtect, which helps with stopping debugger detection too).
 
 Now we get no issue from Roblox:
-![](../images/roblox-frontpage.PNG)
+![](/images/roblox-frontpage.PNG)
 
 And we can scan memory freely:
+![](/images/roblox-cheatengine-hooked.PNG)
