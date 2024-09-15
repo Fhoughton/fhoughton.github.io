@@ -73,5 +73,5 @@ From here you have circumvented most anticheats for a short while, having preven
 Now we get no issue from Roblox:
 ![](/images/roblox-frontpage.PNG)
 
-And we can scan memory freely:
+And we can hook Roblox:
 ![](/images/roblox-cheatengine-hooked.PNG)
