@@ -5,8 +5,6 @@ date:   2024-10-06 00:19:13 +0100
 categories: zig raycasting
 ---
 
-**This article is not complete yet!**
-
 # Introduction
 This week I decided to give [Zig](https://ziglang.org/) another go, as I had previously been very critical of it and I wanted to make sure I wasn't too harsh.
 
@@ -59,7 +57,12 @@ Raycasting is very simple, which is part of its beauty:
 
 # The Result
 Here is a video of the final raytracer:
-[]()!
+[](images/raycaster_demo.webm)!
+
+
+<video muted autoplay controls width="960" height="540">
+    <source src="/images/raycaster_demo.webm" type="video/webm">
+</video>
 
 # Future Improvements
 There are many ways I want to expand this project further, it has a lot of potential:
