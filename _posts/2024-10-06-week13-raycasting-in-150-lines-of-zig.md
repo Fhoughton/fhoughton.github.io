@@ -6,28 +6,34 @@ categories: zig raycasting
 ---
 
 # Introduction
+
 This week I decided to give [Zig](https://ziglang.org/) another go, as I had previously been very critical of it and I wanted to make sure I wasn't too harsh.
 
 I decided I would write a raytracer, a program that renders a 2d world in psuedo-3D, a technique popularized by ID Software's [Wolfenstein 3D](https://en.wikipedia.org/wiki/Wolfenstein_3D).
 
 ![](https://assetsio.gnwcdn.com/sc81t6.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp)
+
 <p><small> <i> A screenshot of Wolfenstein 3D </i> </small></p>
 
 The git repo associated with this project can be found [here](https://github.com/Fhoughton/wolfenzig).
 
 # Did I Change My Mind On Zig?
+
 I would say that I'm a little bit more convinced on Zig now. I get more of how it works, its design philosophy, and why it works the way it does. I've found better ways to get help with the language and I think it can be a viable replacement for a majority of my C/C++ use cases. Having said that I still had some issues:
 
 <b>1.) Zig Format</b>
 
 `zig fmt`, the Zig standard formatter, would 'unsplit' my longer lines, making huge monstrous lines e.g.
+
 ```zig
 var rayDirection = rl.Vector2{
     .x = -@cos(playerAngle + viewAngle),
     .y = -@sin(playerAngle + viewAngle)
 };
 ```
+
 would become
+
 ```zig
 var rayDirection = rl.Vector2{ .x = -@cos(playerAngle + viewAngle), .y = -@sin(playerAngle + viewAngle) };
 ```
@@ -43,6 +49,7 @@ The language design of Zig still has some warts, particularly I dislike how intr
 Zig's build system is definitely an improvement over C and C++ but it still feels slightly painful compared to Rust and other modern contemporaries. I think Zig is working on this well, such as by introducing a package manager, but the package manager still needs to be adopted widely (I used [raylib-zig](https://github.com/Not-Nik/raylib-zig) to draw the 2D graphics in this project, and it hasn't switched yet) and other improvements to the general build specifications need to be made.
 
 # How Raycasting Works
+
 Raycasting is very simple, which is part of its beauty:
 
 1.) Start at some start angle to the left of the character's view (30 degrees to the left in our case)
@@ -53,9 +60,8 @@ Raycasting is very simple, which is part of its beauty:
 
 4.) Turn the start angle 1 degree and repeat, repeat this process for all view angles to paint the scene
 
-
-
 # The Result
+
 Here is a video of the final raytracer:
 
 <video muted autoplay controls width="960" height="540">
@@ -63,7 +69,9 @@ Here is a video of the final raytracer:
 </video>
 
 # Future Improvements
+
 There are many ways I want to expand this project further, it has a lot of potential:
+
 - Add support for textured floors and walls
 - Add enemies and shooting
 - Implement raycasting into an existing game to add a first-person viewpoint
