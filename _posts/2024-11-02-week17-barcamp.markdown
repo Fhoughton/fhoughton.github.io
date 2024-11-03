@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "APAW Week 17: Giving A Talk At BarCamp Canterbury!"
+date:   2024-11-02 00:19:13 +0100
+categories: conference
+---
+
+# Introduction
+![](/images/barcamp-logo.png)
+
+
+This week I spoke at [BarCamp Cantebury](https://barcampcanterbury.com/), a yearly tech conference taking place in Canterbury, where I go to University.
+
+# Event Overview
+BarCamp Canterbury has been running since 2008, providing a conference for tech enthusiasts to connect. This year, the event continued its tradition of being free-to-attend, thanks to support from sponsors. They describe it as an 'unconference' as all the talks are given on the day by attendees, with no prior scheduling.
+
+Talks began at 10:00am, each 30 minutes, hosted by attendees, who could talk about whatever they want.
+
+The schedule is here below:
+
+![](/images/barcamp-timetable.png)
+
+# My Talk
+
+I gave the talk 'A Brief Introduction To Stack-Oriented Programming Languages', a recording of which can be seen below. It was a short talk explaining what 
+stack-oriented languages are, why they might be useful and their history, concluding with stuff people could try at home.
+
+A recording is here below, it's compressed for the browser, feel free to email me at [fdphoughton@protonmail.com](mailto:fdphoughton@protonmail.com) for the higher quality recording.
+
+The very beginning and the ending Q&A are sadly missing from the recording.
+
+<video controls width="960" height="540">
+    <source src="/images/barcamp-talk.webm" type="video/webm">
+</video>
+
+[Slides][1]
+
+[1]:{{ site.url }}/download/StackPresentation.odp
+
+# Highlights of the Day
+- **Talks and Sessions**: Attendees presented on a wide array of topics, from software development to DIY electronics, with this year’s theme being *Kent Engineers*. One of the most engaging sessions I attended was on 'Overengineering A Lightswitch', all about configuring a smart house lighting system.
+  
+- **Swap Shop**: This was a fantastic initiative where people brought in gadgets, cables, tools, and tech components they no longer needed. It was inspiring to see one person’s "junk" become someone else’s next project, and I grabbed a small e-Paper board for future use:
+<img src="/images/barcamp-board-front.jpg" width="300"> 
+<img src="/images/barcamp-board-back.jpg" width="300">
+
+- **Food and Community**: Thanks to [Mythic Beasts](https://www.mythic-beasts.com/), there was free pizza for everyone, catering to both vegan and gluten-free preferences. This added a great community feel, allowing everyone to connect over lunch and continue conversations sparked during sessions.
+
+# Pictures
+<img src="/images/barcamp-picture-1.jpg" width="300" style="margin-bottom: 20px; margin-right: 20px;">
+<img src="/images/barcamp-picture-2.jpg" width="300" style="margin-bottom: 20px;">
+
+<img src="/images/barcamp-picture-3.jpg" width="300" style="margin-bottom: 20px; margin-right: 20px;">
+<img src="/images/barcamp-picture-5.jpg" width="300" style="margin-bottom: 20px;">
+
+<img src="/images/barcamp-picture-6.jpg" width="300" style="margin-bottom: 20px; margin-right: 20px;">
+<img src="/images/barcamp-picture-7.jpg" width="300" style="margin-bottom: 20px;">
