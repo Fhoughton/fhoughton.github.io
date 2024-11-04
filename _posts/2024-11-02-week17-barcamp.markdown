@@ -30,7 +30,7 @@ A recording is here below, it's compressed for the browser, feel free to email m
 The very beginning and the ending Q&A are sadly missing from the recording.
 
 <video controls width="960" height="540">
-    <source src="/images/barcamp-talk.webm" type="video/webm">
+    <source src="https://www.dropbox.com/scl/fi/yu9otpu3422ubi7ffy2s9/barcamp-talk.webm?rlkey=mks71x5e2dl0y2jewm5mlvlbm&st=38995x92&raw=1" type="video/webm">
 </video>
 
 [Slides][1]
