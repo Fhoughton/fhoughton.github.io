@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 1: A Discord Bot in Lua"
+title:  "APAW Week 1: A Discord Bot In Lua"
 date:   2024-07-11 00:19:13 +0100
 categories: lua discord api
 ---

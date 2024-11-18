@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 16: Trying out JAX"
+title:  "APAW Week 16: Trying Out JAX"
 date:   2024-10-27 00:19:13 +0100
 categories: numpy
 ---
