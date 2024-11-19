@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "APAW Week 20: Trying Out lmno.lol, A New Blogging Platform"
+date:   2024-11-18 00:19:13 +0100
+categories: blogging markdown
+---
+
+You can also [read this post on lmno.lol](https://lmno.lol/fhoughton/apaw-week-20-trying-out-lmnolol-a-new-blogging-platform)!
+
+# What is lmno.lol?
+![](/images/lmno-splash.png)
+
+[lmno.lol](https://lmno.lol) is a new blogging platform that's currently invite only. It was founded by HackerNews user [xenodium](https://news.ycombinator.com/user?id=xenodium), who kindly gave me an invite. The platform is all about simple, low distraction blogging. Your entire blog is a single markdown file formatted like so:
+```markdown
+# [2024-04-29] My First Lmno.lol Post
+## Introduction
+Hello, world!
+
+# blog-text-art-banner
+
+███████ ██   ██  ██████  ██    ██  ██████  ██   ██ ████████  ██████  ███    ██
+██      ██   ██ ██    ██ ██    ██ ██       ██   ██    ██    ██    ██ ████   ██
+█████   ███████ ██    ██ ██    ██ ██   ███ ███████    ██    ██    ██ ██ ██  ██
+██      ██   ██ ██    ██ ██    ██ ██    ██ ██   ██    ██    ██    ██ ██  ██ ██
+██      ██   ██  ██████   ██████   ██████  ██   ██    ██     ██████  ██   ████
+
+# blog-about
+
+Hello 👋 I'm [@fhoughton](/fhoughton). I program like to blog about tech stuff 🤩.
+
+[Github](https://github.com/Fhoughton) [LinkedIn](https://www.linkedin.com/in/felix-houghton-6bb6962b2/)
+```
+
+# Giving It A Go
+I was interested in the site and wanted to give it a go. My main goal was to simply mirror all my github.io blog posts to lmno.lol; This meant I had to work out how to correctly convert jekyll markdown to lmno.lol markdown, which I wrote a python script for.
+
+The script can be found [here](https://gist.github.com/Fhoughton/77c3bca5ab0efca2352909dc1c16009d.js) or at the end of the post.
+
+# Issue 1: Jekyll Markdown's YAML Header
+Jekyll's markdown format contains a header specifying information about the blog post, for example this posts' is:
+```yaml
+---
+layout: post
+title:  "APAW Week 20: Trying Out lmno.lol, A New Blogging Platform"
+date:   2024-11-18 00:19:13 +0100
+categories: blogging markdown
+---
+```
+
+I needed to parse this and split it from the main markdown file, so I used the python library frontmatter:
+```python
+import frontmatter
+import os
+
+# Parse the frontmatter (yaml header) of the posts and convert them into a useful format
+for file in os.listdir("fhoughton.github.io/_posts/"):
+    if file.endswith(".markdown") or file.endswith(".md"):
+        file_path = os.path.join("fhoughton.github.io/_posts/", file)
+        post = frontmatter.load(file_path)
+        post_contents.append(
+            { "title": post['title'], "date": parse(post['date']), "content": post.content }
+        )
+```
+
+# Issue 2: Indentation Depth
+Lmno.lol expects the first title depth to be the post title, whilst Jekyll gets it from the yaml. This means that all the post content has to be indented one extra level, I wrote a small function do this by crudely parsing markdown titles:
+```python
+def indent_markdown_headers(content):
+    """
+    Increase the indentation level of all Markdown headers in a file by one.
+    """
+    out = []
+    for line in content.split("\n"):
+        if line.strip().startswith('#'):
+            header_level = line.find(' ')  # Find the first space after '#'
+            if header_level < 6:  # Maximum header level is 6 ('######')
+                line = '#' * (header_level + 1) + line[header_level:]
+        out.append(line)
+
+    return "\n".join(out)
+```
+
+# Issue 3: Post Order
+As lmno.lol expects posts to be in a format that has the date before the title I had to process the dates and convert them, sorting the posts correctly so the newest posts are at the top of the markdown file the script generates:
+```python
+# Use the post dates in the yaml to sort them so posts are uploaded in order
+post_contents.sort(key=lambda x: x["date"], reverse=True)
+```
+
+# Success!
+Here is a screenshot of the blog:
+<img src="/images/lmno-finished.png" width=600>
+
+You can visit it [here](https://lmno.lol/fhoughton/apaw-week-20-trying-out-lmnolol-a-new-blogging-platform).
+
+# The Full Conversion Script
+Here is the final script in full:
+
+<script src="https://gist.github.com/Fhoughton/77c3bca5ab0efca2352909dc1c16009d.js"></script>
