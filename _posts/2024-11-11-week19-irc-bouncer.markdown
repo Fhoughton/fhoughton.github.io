@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "APAW Week 19: Running An IRC Bouncer"
-date:   2024-11-17 00:19:13 +0100
+date:   2024-11-11 00:19:13 +0100
 categories: irc raspberrypi
 ---
 
