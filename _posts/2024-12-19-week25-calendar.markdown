@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "APAW Week 25: Porting An Advent Calendar To Golang"
+date:   2024-12-19 00:19:13 +0100
+categories: go golang
+---
+
+![](https://raw.githubusercontent.com/Fhoughton/TinyGo-Maker-Calendar/refs/heads/master/logo.png)
+
+The repo for this post can be found [here](https://github.com/Fhoughton/TinyGo-Maker-Calendar/tree/master).
+
+# The Premise
+As an early christmas present I recieved 'The 12 Projects of Codemas', a boxset of 12 Raspberry Pi Pico projects. The projects are assembled on breadboards and programmed in MicroPython, an embedded dialect of the Python programming language.
+
+I decided that to add some novelty and to teach me both Go and a practical embedded language I would implement the examples in [TinyGo](https://tinygo.org/), a Go implementation for microcontrollers.
+
+To understand why TinyGo is more pragmatic than MicroPython here's a graph from [a paper benchmarking embedded languages](https://www.mdpi.com/2079-9292/12/1/143):
+![](https://www.mdpi.com/electronics/electronics-12-00143/article_deploy/html/images/electronics-12-00143-g006-550.jpg)
+
+As you can see TinyGo beats embedded Rust, closely ties C and all three are (literally) 1000 times faster than MicroPython. TinyGo is also garbage collected and with a large standard library, making it a good balance between MicroPython's ease-of-use and C's performance.
+
+# Moving MicroPython Code To TinyGo
+TinyGo needed much more explicit configuration of pin use, direction, configuration etc. than MicroPython, making code more verbose:
+
+**Golang**
+```go
+// Configure pins for output
+red := machine.Pin(18)
+amber := machine.Pin(19)
+green := machine.Pin(20)
+
+red.Configure(machine.PinConfig{Mode: machine.PinOutput})
+amber.Configure(machine.PinConfig{Mode: machine.PinOutput})
+green.Configure(machine.PinConfig{Mode: machine.PinOutput})
+
+// Turn on LEDs
+red.High()
+amber.High()
+green.High()
+
+// Wait for 5 seconds
+time.Sleep(5 * time.Second)
+
+// Turn off LEDs
+red.Low()
+amber.Low()
+green.Low()
+```
+
+**Python**
+```python
+from machine import Pin
+import time
+
+red = Pin(18, Pin.OUT)
+amber = Pin(19, Pin.OUT)
+green = Pin(20, Pin.OUT)
+
+red.value(1)
+amber.value(1)
+green.value(1)
+
+time.sleep(5)
+
+red.value(0)
+amber.value(0)
+green.value(0)
+
+```
+
+# TinyGo
+TinyGo was great to work with and I'd happily do it again. Unlike with C it was very easy to update firmware repeatedly, quickly and without unplugging the board to set it into flashing mode, by running: 
+```bash
+tinygo flash -target=pico .
+```
+This reflashes and updates the firmware, giving short iteration times like MicroPython but with good type safety and performance similar to C.
+
+# Conclusion
+Programming in TinyGo was great fun, it was fast, easy and performant and I have no major complaints (other than documentation being mildly obscure, which is a wider go issue). The advent calendar was good fun and I enjoyed working on all the projects.
+
+![](/images/pico_heatsensor.jpg)
+
+*The board with a heatsensor, leds and a buzzer hooked up*
