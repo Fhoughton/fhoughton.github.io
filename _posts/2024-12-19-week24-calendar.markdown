@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 25: Porting An Advent Calendar To Golang"
+title:  "APAW Week 24: Porting An Advent Calendar To Golang"
 date:   2024-12-19 00:19:13 +0100
 categories: go golang
 ---
