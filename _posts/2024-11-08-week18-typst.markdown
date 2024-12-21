@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "APAW Week 18: Exploring Typst, A Modern LateX Alternative"
+date:   2024-11-08 00:19:13 +0100
+categories: latex markdown typst
+---
+
+<style>
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+</style>
+
+# Typst, Markdown And LateX
+When writing a document two languages have traditionally been king:
+- Markdown for technical documents, as it can be presented in many ways
+- <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> for complex pdfs and research papers, due to its highly advanced support of different document features
+
+However, a new open-source language aiming to take the space from <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> has emerged.
+
+# Typst, And What It Does Right
+Typst is a language that aims to remove a lot of the ancient cruft from <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> and create an advanced typesetting format for research papers that is structured more like Markdown. This interested me as for University I often write research papers, and having endured much pain from <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>'s cruft I am eager to replace it with something simpler. 
+
+To see their differences in cruft and verbosity we only have to look at a basic document:
+```latex
+\documentclass{article}
+\begin{document}
+\title{Hello World!}
+This is a simple example.
+\end{document}
+```
+
+```typst
+= Hello World!
+This is a simple example.
+```
+
+Typst ditches the commands everywhere and makes the general case of writing documents much better. It also supports key features for paper writing, such as citations, out of the box (it even accepts styles in the standard CSL format!), making it a very pragmatic choice for writing a paper in a way that blends both formatting specifics like <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> and clarity like Markdown.
+
+# A Practical Case
+I chose to use Typst when writing a manual for a modpack (a collection of modifications for a video game) for the best-selling game Minecraft. A picture of the final result is below:
+<img src="/images/typst_minecraft.png" style="border: 5px solid #555">
+
+And it's source is as follows (pardon the lack of syntax highlighting, in VSCode there is great highlighting):
+```typst
+#pagebreak()
+= Bakery & Farming
+== New Foods
+#figure(
+  image("new_foods.png", width:80%),
+)
+New baking items can be found in the crafting table or baked with the stove. The new items give a new buff, 'Satieted', that constantly refills your hunger whilst active, making them good for long journeys.
+#figure(
+  image("stove.png"),
+  caption: [The stove is used to cook food made from the new crops],
+
+```
+(A page in 6 lines is pretty good compared to <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>, where it would be 10 and far more verbose)
+
+# Complaints About Typst
+The default formatting is a bit plain and the default font is less professional than <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>, meaning more is needed in terms of styling to get Typst up to speed for academic papers. Furthermore a big issue with Typst is its relatively young 2019 invention date compared to <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>'s 1985 birthdate, meaning there are much fewer resources online, such as themes, extensions and tutorials, making Typst a much more do-it-yourself and documentation-heavy experience for now.
+
+# Big Wins For Typst
+Typst is super simple and I still love it overall. I need to experiment more with complex styles but it is easy to use, fast and simple. The VSCode extension for the language, Tinymist, is amazing, giving syntax highlighting, real-time document updating as you type, pdf export and more, making it a real charm to work in the language compared to <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>'s clunky editors and edit-save-compile loop. 
+
+# Conclusion
+Overall, I need to experiment more but I feel confident that Typst can replace <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> and RMarkdown as my primary way to edit academic research papers, and maybe even all complex documents. I hope a community will grow for the language, and I'm excited to see what's next.
