@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installing Fedora Linux"
+title:  "Moving My Laptop To Fedora Linux (From Manjaro)"
 date:   2024-09-29 00:19:13 +0100
 categories: linux fedora
 ---

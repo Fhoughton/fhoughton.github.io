@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll Blog Setup"
+title:  "Setting Up This Blog With Jekyll"
 date:   2024-07-18 00:19:13 +0100
 categories: blog meta ruby
 ---
