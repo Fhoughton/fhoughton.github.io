@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 20: Trying Out lmno.lol, A New Blogging Platform"
+title:  "Trying Out lmno.lol, A New Blogging Platform"
 date:   2024-11-18 00:19:13 +0100
 categories: blogging markdown
 ---
@@ -41,7 +41,7 @@ Jekyll's markdown format contains a header specifying information about the blog
 ```yaml
 ---
 layout: post
-title:  "APAW Week 20: Trying Out lmno.lol, A New Blogging Platform"
+title:  "Trying Out lmno.lol, A New Blogging Platform"
 date:   2024-11-18 00:19:13 +0100
 categories: blogging markdown
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 3: Writing A Git Client In Python"
+title:  "Writing A Git Client In Python"
 date:   2024-07-28 00:19:13 +0100
 categories: git python
 ---

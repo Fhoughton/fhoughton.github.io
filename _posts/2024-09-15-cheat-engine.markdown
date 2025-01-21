@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 10: Avoiding Anti-Cheat Detection In Cheat Engine"
+title:  "Avoiding Anti-Cheat Detection In Cheat Engine"
 date:   2024-09-15 00:19:13 +0100
 categories: anticheat cheat-engine roblox hacking lua
 ---

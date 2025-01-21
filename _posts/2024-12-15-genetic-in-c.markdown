@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 23: Implementing A Genetic Algorithm In C"
+title:  "Implementing A Genetic Algorithm In C"
 date:   2024-12-15 00:19:13 +0100
 categories: genetic c
 ---

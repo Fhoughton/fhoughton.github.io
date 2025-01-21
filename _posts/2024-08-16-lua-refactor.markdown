@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 6: Doom Emacs And Refactoring A Lua Codebase"
+title:  "Doom Emacs And Refactoring A Lua Codebase"
 date:   2024-08-18 00:19:13 +0100
 categories: lua refactoring emacs
 ---

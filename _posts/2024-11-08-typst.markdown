@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 18: Exploring Typst, A Modern LateX Alternative"
+title:  "Exploring Typst, A Modern LateX Alternative"
 date:   2024-11-08 00:19:13 +0100
 categories: latex markdown typst
 ---

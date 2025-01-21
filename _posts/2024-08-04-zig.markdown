@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 4: Trying Zig"
+title:  "Trying Zig"
 date:   2024-08-04 00:19:13 +0100
 categories: zig plt
 ---

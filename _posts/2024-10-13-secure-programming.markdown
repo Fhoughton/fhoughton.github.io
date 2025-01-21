@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 14: Learning OCaml & Secure Programming Ideas"
+title:  "Learning OCaml & Secure Programming Ideas"
 date:   2024-10-13 00:19:13 +0100
 categories: ocaml testing security
 ---

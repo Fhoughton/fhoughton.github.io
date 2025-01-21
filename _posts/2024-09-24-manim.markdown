@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 11: Visualizations In Python with Manim"
+title:  "Visualizations In Python with Manim"
 date:   2024-09-24 00:19:13 +0100
 categories: python manim
 ---

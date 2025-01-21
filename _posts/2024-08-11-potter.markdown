@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 5: Reverse Engineering Harry Potter For The PS1"
+title:  "Reverse Engineering Harry Potter For The PS1"
 date:   2024-08-11 00:15:13 +0100
 categories: reverse-engineering ps1 psx c
 ---

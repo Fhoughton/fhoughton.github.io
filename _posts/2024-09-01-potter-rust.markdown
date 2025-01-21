@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 8: Rewriting My PS1 Harry Potter Game Files Extractor In Rust"
+title:  "Rewriting My PS1 Harry Potter Game Files Extractor In Rust"
 date:   2024-09-01 00:19:13 +0100
 categories: Rust psx ps1
 ---

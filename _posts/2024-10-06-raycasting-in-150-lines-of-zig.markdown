@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 13: Raycasting In 150 Lines Of Zig"
+title:  "Raycasting In 150 Lines Of Zig"
 date:   2024-10-06 00:19:13 +0100
 categories: zig raycasting
 ---

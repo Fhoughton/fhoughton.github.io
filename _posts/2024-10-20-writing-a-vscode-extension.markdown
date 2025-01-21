@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 15: Writing A Visual Studio Code Extension"
+title:  "Writing A Visual Studio Code Extension"
 date:   2024-10-22 00:19:13 +0100
 categories: typescript vscode
 ---

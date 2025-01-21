@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 12: Installing Fedora Linux"
+title:  "Installing Fedora Linux"
 date:   2024-09-29 00:19:13 +0100
 categories: linux fedora
 ---

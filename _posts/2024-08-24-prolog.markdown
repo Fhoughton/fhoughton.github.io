@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "APAW Week 7: Experimenting With Prolog"
+title:  "Experimenting With Prolog"
 date:   2024-08-24 00:19:13 +0100
 categories: prolog
 ---
