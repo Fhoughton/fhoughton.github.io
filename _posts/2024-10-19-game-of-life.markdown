@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Throwback: Conway's Game Of Life Explained"
+description: A post originally from 2018 explaining the mechanisms and useful patterns of Conway's Game Of Life
 date:   2024-10-19 00:19:13 +0100
 categories: Life
 ---

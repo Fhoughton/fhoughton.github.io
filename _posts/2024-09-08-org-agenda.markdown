@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Trying Org Agenda And Prolog DCGs"
+description: Trying the Emacs org-agenda package for organising a calendar, and using DCGs, a special parsing technique, in Prolog
 date:   2024-09-08 00:19:13 +0100
 categories: Prolog DCG Emacs Org-Mode
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Writing A Discord Bot In Lua"
+description: Using lua to write a puzzle game Discord bot
 date:   2024-07-11 00:19:13 +0100
 categories: Lua Discord API
 ---

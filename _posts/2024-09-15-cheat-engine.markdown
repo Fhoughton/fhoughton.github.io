@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Avoiding Anti-Cheat Detection In Cheat Engine"
+description: How I beat the Roblox anti-cheat, explaining and bypassing the detection methods
 date:   2024-09-15 00:19:13 +0100
 categories: Anticheat Cheat-Engine Roblox Hacking Lua
 ---

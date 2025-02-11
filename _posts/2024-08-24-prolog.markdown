@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Experimenting With Prolog"
+description: Analysing the Collatz Conjecture in Prolog, among other basic exercises to understand the language more
 date:   2024-08-24 00:19:13 +0100
 categories: Prolog
 ---

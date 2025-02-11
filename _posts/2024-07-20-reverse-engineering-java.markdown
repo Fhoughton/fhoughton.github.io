@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reverse Engineering Java Programs For Fun And (Mental) Profit"
+description: Decompling and hacking a video game to unlock me and my friends free skins
 date:   2024-07-20 00:19:13 +0100
 categories: Java Reverse-Engineering
 ---

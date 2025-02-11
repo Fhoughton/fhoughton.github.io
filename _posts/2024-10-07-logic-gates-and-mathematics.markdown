@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Formalising Logic Gates As Mathematical Expressions"
+description: Revisiting an experiment I tried when I was 16, where using mathematical equations to simulate logic gates I could execute computer programs
 date:   2024-10-07 00:19:13 +0100
 categories: Mathematics
 ---

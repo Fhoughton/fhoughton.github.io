@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Moving My Laptop To Fedora Linux (From Manjaro)"
+description: The why and how of switching Linux distros, and what benefits and drawbacks I found
 date:   2024-09-29 00:19:13 +0100
 categories: Linux Fedora
 ---

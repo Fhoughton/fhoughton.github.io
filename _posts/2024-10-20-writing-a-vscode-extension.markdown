@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Writing A Visual Studio Code Extension"
+description: Creating a simple timer extension to explore extending VSCode
 date:   2024-10-22 00:19:13 +0100
 categories: Typescript VSCode
 ---

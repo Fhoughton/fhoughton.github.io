@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Implementing A Genetic Algorithm In C"
+description: A guide to writing a simple genetic algorihtm for finding a matching string
 date:   2024-12-15 00:19:13 +0100
 categories: Genetic C
 ---

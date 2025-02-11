@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Trying Elm, A Functional Web Application Language"
+description: Writing a wordcounter app in Elm, an alternative, functional, take on web programming for both html and javascript
 date:   2024-12-06 00:19:13 +0100
 categories: Elm Functional Web
 ---

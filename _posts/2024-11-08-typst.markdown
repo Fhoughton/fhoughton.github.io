@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Exploring Typst, A Modern LateX Alternative"
+description: Using Typst to write a practical document to see if it can replace LateX
 date:   2024-11-08 00:19:13 +0100
 categories: Latex Markdown Typst
 ---

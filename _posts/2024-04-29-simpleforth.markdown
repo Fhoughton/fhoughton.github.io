@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Writing A Forth In C++"
+description: Implementing the stack-oriented programming language Forth in C++, with function support
 date:   2024-04-29 00:19:13 +0100
 categories: Cpp Forth
 ---

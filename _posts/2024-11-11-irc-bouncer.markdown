@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Running An IRC Bouncer"
+description: Setting up an IRC bouncer, a bot that sits in channels and stores their messages to keep a text history
 date:   2024-11-11 00:19:13 +0100
 categories: IRC Raspberry-Pi
 ---

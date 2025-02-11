@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Porting An Advent Calendar To Golang"
+description: Converting an embedded programming advent calendar to TinyGo from MicroPython
 date:   2024-12-19 00:19:13 +0100
 categories: Go Golang
 image:

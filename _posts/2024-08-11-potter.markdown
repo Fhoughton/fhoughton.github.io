@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reverse Engineering Harry Potter For The PS1"
+description: Writing a tool to extract the game files for Harry Potter and the Philosopher's Stone for the PS1
 date:   2024-08-11 00:15:13 +0100
 categories: Reverse-Engineering PS1 PSX C
 ---

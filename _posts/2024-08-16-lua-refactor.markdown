@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Doom Emacs And Refactoring A Lua Codebase"
+description: Trying out Doom Emacs, a modern pre-configure emacs, and using it when refactoring some Lua code for a game
 date:   2024-08-18 00:19:13 +0100
 categories: Lua Refactoring Emacs
 ---

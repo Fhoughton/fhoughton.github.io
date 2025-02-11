@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Setting Up This Blog With Jekyll"
+description: My experience first setting up my github pages site
 date:   2024-07-18 00:19:13 +0100
 categories: Blog Meta Ruby
 ---

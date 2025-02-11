@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Rewriting My PS1 Harry Potter Game Files Extractor In Rust"
+description: The experience I had and benefits I found converting ~300 lines of C to 200 lines of Rust
 date:   2024-09-01 00:19:13 +0100
 categories: Rust PSX PS1
 ---

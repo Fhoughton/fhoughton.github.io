@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Trying Out lmno.lol, A New Blogging Platform"
+description: Writing code to port all my blog posts to a new blogging platform I got invited to
 date:   2024-11-18 00:19:13 +0100
 categories: Blogging Markdown
 ---
