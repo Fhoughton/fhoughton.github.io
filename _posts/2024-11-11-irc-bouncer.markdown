@@ -2,7 +2,7 @@
 layout: post
 title:  "Running An IRC Bouncer"
 date:   2024-11-11 00:19:13 +0100
-categories: irc raspberrypi
+categories: IRC Raspberry-Pi
 ---
 
 # What Is IRC?

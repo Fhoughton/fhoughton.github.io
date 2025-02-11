@@ -2,7 +2,7 @@
 layout: post
 title:  "Implementing A Genetic Algorithm In C"
 date:   2024-12-15 00:19:13 +0100
-categories: genetic c
+categories: Genetic C
 ---
 
 # What Is A Genetic Algorithm?

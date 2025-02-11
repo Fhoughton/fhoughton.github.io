@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting Up This Blog With Jekyll"
 date:   2024-07-18 00:19:13 +0100
-categories: blog meta ruby
+categories: Blog Meta Ruby
 ---
 
 This week I wanted to focus on a slightly more casual project as I was beginning my summer job. I decided to get my personal github.io site (the one you're on now) set up using jekyll, a ruby-based blog framework, and to push through some of the posts I had written up.

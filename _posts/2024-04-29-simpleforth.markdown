@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing A Forth In C++"
 date:   2024-04-29 00:19:13 +0100
-categories: cpp forth
+categories: Cpp Forth
 ---
 
 

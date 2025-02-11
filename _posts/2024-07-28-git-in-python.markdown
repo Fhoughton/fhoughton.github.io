@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing A Git Client In Python"
 date:   2024-07-28 00:19:13 +0100
-categories: git python
+categories: Git Python
 ---
 
 I began developing a git client this week, with support finished for the following commands:

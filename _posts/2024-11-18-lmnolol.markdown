@@ -2,7 +2,7 @@
 layout: post
 title:  "Trying Out lmno.lol, A New Blogging Platform"
 date:   2024-11-18 00:19:13 +0100
-categories: blogging markdown
+categories: Blogging Markdown
 ---
 
 You can also [read this post on lmno.lol](https://lmno.lol/fhoughton/apaw-week-20-trying-out-lmnolol-a-new-blogging-platform)!

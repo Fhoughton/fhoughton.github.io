@@ -2,7 +2,7 @@
 layout: post
 title:  "Doom Emacs And Refactoring A Lua Codebase"
 date:   2024-08-18 00:19:13 +0100
-categories: lua refactoring emacs
+categories: Lua Refactoring Emacs
 ---
 
 This week I was fairly tight for time but I spent the weekend refactoring a lua codebase I had for my game engine in preparation for a game jam, and I gave [Doom Emacs](https://github.com/doomemacs/doomemacs) a try.

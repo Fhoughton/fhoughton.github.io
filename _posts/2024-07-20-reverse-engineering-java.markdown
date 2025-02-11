@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse Engineering Java Programs For Fun And (Mental) Profit"
 date:   2024-07-20 00:19:13 +0100
-categories: java reverse-engineering
+categories: Java Reverse-Engineering
 ---
 ![](/images/sts-nologo.jpg)
 

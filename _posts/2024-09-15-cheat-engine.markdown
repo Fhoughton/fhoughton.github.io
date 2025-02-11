@@ -2,7 +2,7 @@
 layout: post
 title:  "Avoiding Anti-Cheat Detection In Cheat Engine"
 date:   2024-09-15 00:19:13 +0100
-categories: anticheat cheat-engine roblox hacking lua
+categories: Anticheat Cheat-Engine Roblox Hacking Lua
 ---
 
 # Why Avoid Anti-Cheats?

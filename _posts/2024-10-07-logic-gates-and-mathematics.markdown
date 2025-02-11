@@ -2,7 +2,7 @@
 layout: post
 title:  "Formalising Logic Gates As Mathematical Expressions"
 date:   2024-10-07 00:19:13 +0100
-categories: mathematics
+categories: Mathematics
 ---
 <style>
 .tex sub, .latex sub, .latex sup {

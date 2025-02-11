@@ -2,7 +2,7 @@
 layout: post
 title:  "Throwback: Conway's Game Of Life Explained"
 date:   2024-10-19 00:19:13 +0100
-categories: life
+categories: Life
 ---
 
 <b><big>

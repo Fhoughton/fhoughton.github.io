@@ -2,7 +2,7 @@
 layout: post
 title:  "Trying Zig, A Modern C Alternative"
 date:   2024-08-04 00:19:13 +0100
-categories: zig plt
+categories: Zig
 ---
 
 For week 4 of my 'A Project A Week' series I decided that I would try learning [Zig](https://ziglang.org/), a low-level programming language with compile time metaprogramming.

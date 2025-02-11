@@ -2,7 +2,7 @@
 layout: post
 title:  "Raycasting In 150 Lines Of Zig"
 date:   2024-10-06 00:19:13 +0100
-categories: zig raycasting
+categories: Zig Raycasting
 ---
 
 # Introduction

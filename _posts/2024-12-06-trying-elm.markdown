@@ -2,7 +2,7 @@
 layout: post
 title:  "Trying Elm, A Functional Web Application Language"
 date:   2024-12-06 00:19:13 +0100
-categories: elm functional web
+categories: Elm Functional Web
 ---
 
 # What Is Elm?

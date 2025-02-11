@@ -2,7 +2,7 @@
 layout: post
 title:  "Rewriting My PS1 Harry Potter Game Files Extractor In Rust"
 date:   2024-09-01 00:19:13 +0100
-categories: Rust psx ps1
+categories: Rust PSX PS1
 ---
 # What Is Hagrid?
 This week I rewrote my tool '[hagrid](https://github.com/Fhoughton/hagrid/tree/master)' in Rust. Hagrid is a tool for extracting the data files from the Playstation 1 Harry Potter video games, famous for their good gameplay and funny looking characters (see the much memed PS1 Hagrid below).

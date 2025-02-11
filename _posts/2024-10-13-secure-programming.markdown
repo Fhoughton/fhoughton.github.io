@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning OCaml & Secure Programming Ideas"
 date:   2024-10-13 00:19:13 +0100
-categories: ocaml testing security
+categories: Ocaml Testing Security
 ---
 
 # Introduction

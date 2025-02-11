@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse Engineering Harry Potter For The PS1"
 date:   2024-08-11 00:15:13 +0100
-categories: reverse-engineering ps1 psx c
+categories: Reverse-Engineering PS1 PSX C
 ---
 # Why PS1 Harry Potter?
 This week, while teaching a cybersecurity course over the summer, I found myself inspired to dive into a personal project that blended my hacking and retro gaming: reverse-engineering a PS1 game.

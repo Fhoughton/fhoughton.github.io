@@ -2,7 +2,7 @@
 layout: post
 title:  "Experimenting With Prolog"
 date:   2024-08-24 00:19:13 +0100
-categories: prolog
+categories: Prolog
 ---
 
 This week I experimented with the logic programming language [Prolog](https://en.wikipedia.org/wiki/Prolog), a weird and slightly whimsical programming language unlike many others. I constructed some basic programs along the way and got to experiment with constraint programming, leading to some *cool* results.

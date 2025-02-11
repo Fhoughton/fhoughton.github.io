@@ -2,7 +2,7 @@
 layout: post
 title:  "3 Tips For Using The Tiled Map Maker Productively "
 date:   2024-07-15 00:19:13 +0100
-categories: lua tiled
+categories: Lua Tiled
 ---
 
 This article details tips for using [Tiled](https://www.mapeditor.org/), a generic map editor for game development, as part of the workflow with a game engine. The advice comes from my experience using [Love2D](https://love2d.org/), a [Lua](https://www.lua.org/) based game engine.

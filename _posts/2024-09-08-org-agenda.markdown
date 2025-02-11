@@ -2,7 +2,7 @@
 layout: post
 title:  "Trying Org Agenda And Prolog DCGs"
 date:   2024-09-08 00:19:13 +0100
-categories: prolog dcg emacs org-agenda
+categories: Prolog DCG Emacs Org-Mode
 ---
 
 # A Slightly Mixed Week

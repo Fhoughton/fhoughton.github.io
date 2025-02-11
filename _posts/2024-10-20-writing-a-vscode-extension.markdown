@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing A Visual Studio Code Extension"
 date:   2024-10-22 00:19:13 +0100
-categories: typescript vscode
+categories: Typescript VSCode
 ---
 
 # Introduction
