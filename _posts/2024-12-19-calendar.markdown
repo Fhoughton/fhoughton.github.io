@@ -3,9 +3,9 @@ layout: post
 title:  "Porting An Advent Calendar To Golang"
 date:   2024-12-19 00:19:13 +0100
 categories: go golang
+image:
+  path: /images/tinygo-calendar-logo.png
 ---
-
-![](https://raw.githubusercontent.com/Fhoughton/TinyGo-Maker-Calendar/refs/heads/master/logo.png)
 
 The repo for this post can be found [here](https://github.com/Fhoughton/TinyGo-Maker-Calendar/tree/master).
 
