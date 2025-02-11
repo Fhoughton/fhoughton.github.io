@@ -3,11 +3,11 @@ layout: post
 title:  "Giving A Talk At BarCamp Canterbury!"
 date:   2024-11-02 00:19:13 +0100
 categories: conference
+image:
+  path: /images/barcamp-logo.png
 ---
 
 # Introduction
-![](/images/barcamp-logo.png)
-
 
 This week I spoke at [BarCamp Cantebury](https://barcampcanterbury.com/), a yearly tech conference taking place in Canterbury, where I go to University.
 
