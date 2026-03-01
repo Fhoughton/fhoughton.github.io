@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Reverse Engineering Java Programs For Fun And (Mental) Profit"
-description: Decompling and hacking a video game to unlock me and my friends free skins
+title:  "Reverse Engineering A Java Game To Unlock Every Cosmetic For Free"
+description: Decompling and hacking a video game to unlock things for free
 date:   2024-07-20 00:19:13 +0100
 categories: Java Reverse-Engineering
+image:
+  path: /images/sts-nologo.jpg
 ---
-![](/images/sts-nologo.jpg)
 
 # Introduction
 
