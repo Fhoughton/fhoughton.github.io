@@ -4,6 +4,7 @@ title:  "Writing A Discord Bot In Lua"
 description: Using lua to write a puzzle game Discord bot
 date:   2024-07-11 00:19:13 +0100
 categories: Lua Discord API
+published: false
 ---
 
 This the first of a series of projects/posts I'm going to try writing up called 'A Project A Week' (APAW), where I try to do a smaller project each week to learn new skills and create useful tools. The scope of the projects might vary based on the amount of things in the week but the goal is to try and learn *something* new each week.
