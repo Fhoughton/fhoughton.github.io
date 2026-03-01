@@ -65,9 +65,7 @@ Raycasting is very simple, which is part of its beauty:
 
 Here is a video of the final raytracer:
 
-<video muted autoplay controls width="960" height="540">
-    <source src="/images/raycaster_demo.webm" type="video/webm">
-</video>
+![](/images/raycaster-demo.gif)
 
 # Future Improvements
 
