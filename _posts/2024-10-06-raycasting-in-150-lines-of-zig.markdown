@@ -4,6 +4,8 @@ title:  "Raycasting In 150 Lines Of Zig"
 description: Learning Zig by implementing a Wolfenstein 3D styled raycaster
 date:   2024-10-06 00:19:13 +0100
 categories: Zig Raycasting
+image:
+  path: /images/raycaster-demo.gif
 ---
 
 # Introduction
