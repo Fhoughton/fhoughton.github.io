@@ -4,6 +4,7 @@ title:  "Conway's Game Of Life Explained"
 description: The mechanisms and useful patterns of Conway's Game Of Life
 date:   2018-10-21 00:19:13 +0100
 categories: Life
+published: false
 ---
 
 # The basics of Conway's Game of Life

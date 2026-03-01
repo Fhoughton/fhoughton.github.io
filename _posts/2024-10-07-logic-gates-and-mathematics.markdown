@@ -6,6 +6,7 @@ date:   2024-10-07 00:19:13 +0100
 categories: Mathematics
 image:
   path: /images/logic-preview.png
+published: false
 ---
 <style>
 .tex sub, .latex sub, .latex sup {
