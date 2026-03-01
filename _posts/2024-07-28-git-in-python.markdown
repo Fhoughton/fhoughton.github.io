@@ -4,6 +4,7 @@ title:  "Writing A Git Client In Python"
 description: Learning how git works by writing a small slice of its functionality in python
 date:   2024-07-28 00:19:13 +0100
 categories: Git Python
+published: false
 ---
 
 I began developing a git client this week, with support finished for the following commands:

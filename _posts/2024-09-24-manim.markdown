@@ -4,6 +4,7 @@ title:  "Visualizations In Python with Manim"
 description: Exploring using code to create clean visualisations of binary formats
 date:   2024-09-24 00:19:13 +0100
 categories: Python Manim
+published: false
 ---
 
 <style>
