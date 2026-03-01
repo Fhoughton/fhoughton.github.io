@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Avoiding Anti-Cheat Detection In Cheat Engine"
-description: How I beat the Roblox anti-cheat, explaining and bypassing the detection methods
+title:  "Bypassing The Roblox Anti-Cheat"
+description: How I beat the Roblox anti-cheat's signature detection to enable cheat engine
 date:   2024-09-15 00:19:13 +0100
 categories: Anticheat Cheat-Engine Roblox Hacking Lua
+image:
+  path: /images/roblox-logo.png
 ---
 
 # Why Avoid Anti-Cheats?
