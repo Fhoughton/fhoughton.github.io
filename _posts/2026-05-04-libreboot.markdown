@@ -5,7 +5,7 @@ description: Flashing tips, firmware construction and hardware teardown
 date: 2026-05-04 00:19:13 +0100
 categories: free-software libreboot low-level
 image:
-  path: /images/Libreboot_Logo.png
+  path: /images/libreboot.png
 ---
 
 If you need to refer to official docs for the t440p please see [here](https://libreboot.org/docs/install/t440p_external.html).
